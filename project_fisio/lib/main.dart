@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
+
 
 main() => runApp(FisioApp());
 
@@ -17,7 +19,7 @@ class _FisioAppState extends State<FisioApp> {
           child: Column(
             children: <Widget>[
               new Row(
-                //crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 //mainAxisSize: MainAxisSize.min,
                 children: [
                   Expanded(
@@ -47,7 +49,7 @@ class _FisioAppState extends State<FisioApp> {
                ],
               ),
               new Row(
-                 //crossAxisAlignment: CrossAxisAlignment.center,
+                 crossAxisAlignment: CrossAxisAlignment.center,
                  //mainAxisSize: MainAxisSize.min,
                 children: [
                 Expanded(
@@ -77,7 +79,7 @@ class _FisioAppState extends State<FisioApp> {
                ],
               ),
                new Row(
-                //crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                  //mainAxisSize: MainAxisSize.min,
                 children: [
                 Expanded(
@@ -97,9 +99,7 @@ class _FisioAppState extends State<FisioApp> {
                   padding: const EdgeInsets.all(51),
                   textColor: Colors.green,
                   highlightColor: Colors.transparent,
-                  onPressed: () {
-                    // Respond to button press
-                  },
+                  onPressed: ()=> exit(0),
                   icon: Icon(Icons.exit_to_app, size: 36),
                   label: Text("Sair"),
                 ),
