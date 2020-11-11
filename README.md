@@ -9,7 +9,18 @@ Incluirá funções como:
   - diagnóstico clínico; 
   - dados vitais (PA, FC, FR); 
   - dor EVA (1 a 10);
-  - avaliação física.
-  
+  - avaliação física:
+    - IMC;
+    - Área (exemplo) MMII: comprimento do mi (EIAS - maléolo medial D e E);
+    - perimetria de coxa E e D;
+    - perimetria de panturrilha (>31 cm);
+    - palpação;
+    - av postural;
+    - sensibilidade;
+    - amplitude;
+    - força muscular;
+    - testes especiais;
+    - questionário especial.
+
 - Agendamento de consultas;
 - Notificação para o usuário sobre os agendamentos.
